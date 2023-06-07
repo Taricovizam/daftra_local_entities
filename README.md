@@ -6,11 +6,11 @@
 ## Create new local entity:
 > /v2/owner/local_entities/create
 
-## :List local entity instances:
+## List local entity instances:
 > /v2/owner/entity/{{local_entity_key}}/list
 
 ## Edit local entity:
 > /v2/owner/local_entities/{{local_entity_key}}/edit
 
 ## Build local entity:
-/v2/owner/local_entities/builder/{{local_entity_key}}
+> /v2/owner/local_entities/builder/{{local_entity_key}}
